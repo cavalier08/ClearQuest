@@ -10,9 +10,6 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
-    height: 80vh;
-    background-color: var(--black);
     opacity: 0.8;
     border-radius: 5px;
 }
@@ -73,4 +70,38 @@ h1 {
     font-size: 18px;
     margin: 0;
     
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Create two rows with flexbox */
+.row {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add rounded corners for a rectangle effect */
+}
+
+/* Style each column */
+.column {
+    flex-basis: calc(50% - 10px); /* 50% width with some margin between columns */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headers and paragraphs */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
 }

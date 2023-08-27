@@ -967,7 +967,7 @@ async function runSimulation() {
       }
 
       if (gameIsRunning) {
-        await animateLoadingBar(3000);
+        //await animateLoadingBar(3000);
       }
     }
   } else {
